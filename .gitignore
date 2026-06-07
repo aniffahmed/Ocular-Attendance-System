@@ -1,0 +1,52 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Flask / app runtime files
+instance/
+*.log
+
+# Local databases and exports
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Face data and generated ML artifacts
+dataset/
+models/
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
